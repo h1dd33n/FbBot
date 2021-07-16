@@ -43,7 +43,7 @@ class DataGatherer:
 
     def get_new_members(self, title):
         ignore = ['Learn More', "Online ", 'About', 'Discussion', 'Rooms', 'Topics', 'Members', 'Events',
-                  'Media']
+                  'Media', 'Announcements']
         users = list()
         added = list()
         input = self.browser.find_elements_by_tag_name('input')
@@ -51,6 +51,7 @@ class DataGatherer:
         added.append('a'.title())
         members_count = int(str(self.browser.find_elements_by_tag_name('strong')[-2].text)
                             .replace('·', '').replace(',', '').strip())
+        # Add user input options based on members_count
         print(f'Members count is {members_count}')
 
         while True:

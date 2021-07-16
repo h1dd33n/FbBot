@@ -5272,3 +5272,9 @@ console.warn: services.settings: main/doh-config Signature verified failed. Retr
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 1626431984011	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://rutracker.org/forum/index.php, line 414: ReferenceError: $ is not defined
+JavaScript error: https://rutracker.org/forum/index.php, line 420: ReferenceError: $ is not defined
+JavaScript error: https://rutracker.org/forum/index.php, line 2335: ReferenceError: $ is not defined
+JavaScript error: https://rutracker.org/forum/index.php, line 2385: ReferenceError: $ is not defined
+JavaScript error: https://rutracker.org/forum/index.php, line 1: TypeError: BB.toggle_top_login is not a function
+JavaScript error: https://rutracker.org/forum/index.php, line 1: TypeError: BB.toggle_top_login is not a function
